@@ -26,31 +26,31 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <section id="testimonials" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Loved by Thousands of Users
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             See what our customers have to say about their experience with our platform.
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition">
+            <div key={index} className="bg-slate-800 border border-slate-700 rounded-xl p-8 shadow-lg hover:shadow-xl transition">
               <div className="flex gap-1 mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
                   <Star key={i} className="text-yellow-400 fill-yellow-400" size={20} />
                 ))}
               </div>
-              <p className="text-gray-700 mb-6 leading-relaxed">"{testimonial.content}"</p>
+              <p className="text-gray-300 mb-6 leading-relaxed">"{testimonial.content}"</p>
               <div className="flex items-center gap-4">
                 <img src={testimonial.image} alt={testimonial.name} className="w-12 h-12 rounded-full object-cover" />
                 <div>
-                  <div className="font-semibold text-gray-900">{testimonial.name}</div>
-                  <div className="text-sm text-gray-600">{testimonial.role}</div>
+                  <div className="font-semibold text-white">{testimonial.name}</div>
+                  <div className="text-sm text-gray-400">{testimonial.role}</div>
                 </div>
               </div>
             </div>

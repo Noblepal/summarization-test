@@ -35,13 +35,13 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-800">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Everything You Need to Succeed
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Powerful features designed to help you work smarter, not harder. Built for teams of all sizes.
           </p>
         </div>
@@ -50,12 +50,12 @@ export default function Features() {
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
-              <div key={index} className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-xl transition duration-300 hover:-translate-y-1">
-                <div className="bg-primary-100 w-14 h-14 rounded-lg flex items-center justify-center mb-6">
+              <div key={index} className="bg-slate-900 border border-slate-700 rounded-xl p-8 hover:shadow-xl transition duration-300 hover:-translate-y-1">
+                <div className="bg-primary-900/30 w-14 h-14 rounded-lg flex items-center justify-center mb-6">
                   <Icon className="text-primary-600" size={28} />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{feature.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+                <h3 className="text-xl font-bold text-white mb-3">{feature.title}</h3>
+                <p className="text-gray-300 leading-relaxed">{feature.description}</p>
               </div>
             );
           })}

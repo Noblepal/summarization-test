@@ -28,28 +28,28 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Get in Touch
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
+            <h3 className="text-2xl font-bold text-white mb-6">Contact Information</h3>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="bg-primary-100 p-3 rounded-lg">
                   <Mail className="text-primary-600" size={24} />
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-900">Email</div>
-                  <div className="text-gray-600">contact@brandname.com</div>
+                  <div className="font-semibold text-white">Email</div>
+                  <div className="text-gray-300">contact@brandname.com</div>
                 </div>
               </div>
 
@@ -58,8 +58,8 @@ export default function Contact() {
                   <Phone className="text-primary-600" size={24} />
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-900">Phone</div>
-                  <div className="text-gray-600">+1 (555) 123-4567</div>
+                  <div className="font-semibold text-white">Phone</div>
+                  <div className="text-gray-300">+1 (555) 123-4567</div>
                 </div>
               </div>
 
@@ -68,15 +68,15 @@ export default function Contact() {
                   <MapPin className="text-primary-600" size={24} />
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-900">Office</div>
-                  <div className="text-gray-600">123 Business Street<br />San Francisco, CA 94105</div>
+                  <div className="font-semibold text-white">Office</div>
+                  <div className="text-gray-300">123 Business Street<br />San Francisco, CA 94105</div>
                 </div>
               </div>
             </div>
 
-            <div className="mt-8 p-6 bg-primary-50 rounded-xl">
-              <h4 className="font-semibold text-gray-900 mb-2">Business Hours</h4>
-              <div className="text-gray-700 space-y-1">
+            <div className="mt-8 p-6 bg-slate-800 border border-slate-700 rounded-xl">
+              <h4 className="font-semibold text-white mb-2">Business Hours</h4>
+              <div className="text-gray-300 space-y-1">
                 <div>Monday - Friday: 9:00 AM - 6:00 PM</div>
                 <div>Saturday: 10:00 AM - 4:00 PM</div>
                 <div>Sunday: Closed</div>
@@ -84,19 +84,19 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-lg p-8">
+          <div className="bg-slate-800 border border-slate-700 rounded-2xl shadow-lg p-8">
             {submitted ? (
               <div className="text-center py-12">
-                <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Check className="text-green-600" size={32} />
+                <div className="bg-green-900/30 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Check className="text-green-400" size={32} />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Thank You!</h3>
-                <p className="text-gray-600">We've received your message and will get back to you soon.</p>
+                <h3 className="text-2xl font-bold text-white mb-2">Thank You!</h3>
+                <p className="text-gray-300">We've received your message and will get back to you soon.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-semibold text-gray-900 mb-2">
+                  <label htmlFor="name" className="block text-sm font-semibold text-white mb-2">
                     Name *
                   </label>
                   <input
@@ -104,13 +104,13 @@ export default function Contact() {
                     id="name"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-600 focus:border-transparent outline-none"
+                    className="w-full px-4 py-3 bg-slate-900 border border-slate-600 text-white rounded-lg focus:ring-2 focus:ring-primary-600 focus:border-transparent outline-none"
                     required
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-semibold text-gray-900 mb-2">
+                  <label htmlFor="email" className="block text-sm font-semibold text-white mb-2">
                     Email *
                   </label>
                   <input
@@ -118,13 +118,13 @@ export default function Contact() {
                     id="email"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-600 focus:border-transparent outline-none"
+                    className="w-full px-4 py-3 bg-slate-900 border border-slate-600 text-white rounded-lg focus:ring-2 focus:ring-primary-600 focus:border-transparent outline-none"
                     required
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="company" className="block text-sm font-semibold text-gray-900 mb-2">
+                  <label htmlFor="company" className="block text-sm font-semibold text-white mb-2">
                     Company
                   </label>
                   <input
@@ -132,12 +132,12 @@ export default function Contact() {
                     id="company"
                     value={formData.company}
                     onChange={(e) => setFormData({ ...formData, company: e.target.value })}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-600 focus:border-transparent outline-none"
+                    className="w-full px-4 py-3 bg-slate-900 border border-slate-600 text-white rounded-lg focus:ring-2 focus:ring-primary-600 focus:border-transparent outline-none"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-semibold text-gray-900 mb-2">
+                  <label htmlFor="message" className="block text-sm font-semibold text-white mb-2">
                     Message *
                   </label>
                   <textarea
@@ -145,7 +145,7 @@ export default function Contact() {
                     rows={4}
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-600 focus:border-transparent outline-none resize-none"
+                    className="w-full px-4 py-3 bg-slate-900 border border-slate-600 text-white rounded-lg focus:ring-2 focus:ring-primary-600 focus:border-transparent outline-none resize-none"
                     required
                   />
                 </div>

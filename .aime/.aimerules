@@ -1,0 +1,37 @@
+# Project Rules
+
+This project uses AIME for development assistance with automatic state tracking.
+
+## Current Plan and TODOs
+
+### Plan
+No active plan yet. Plan will be created when you start working on tasks.
+
+### TODOs
+No active TODOs yet. TODOs will be added when you start working on tasks.
+
+# Lessons Learned
+
+## User Specified Lessons
+(No lessons documented yet)
+
+## AIME Learned  
+(No lessons documented yet)
+
+# Scratchpad
+
+## Current Task
+Project initialized - ready for development tasks
+
+## Progress
+[X] Project setup complete
+[ ] Waiting for first development task
+
+## Notes
+- Project uses AIME for AI-assisted development
+- All project state is automatically tracked
+- Conversation history is preserved across sessions
+
+## Next Steps
+- Start working on your development goals
+- Project state will be automatically maintained
