@@ -213,8 +213,8 @@
       ]
     },
     "src/pages/Signup.tsx": {
-      "lines": 180,
-      "lastModified": "2026-03-05T18:03:19.303Z",
+      "lines": 275,
+      "lastModified": "2026-03-05T18:57:01.135Z",
       "summary": "Signup component",
       "exports": [
         "default:Signup"
@@ -285,6 +285,12 @@
   },
   "recentChanges": [
     {
+      "timestamp": "2026-03-05T18:57:01.119Z",
+      "file": "src/pages/Signup.tsx",
+      "change": "Updated src/pages/Signup.tsx",
+      "type": "modify"
+    },
+    {
       "timestamp": "2026-03-05T18:36:07.535Z",
       "file": "src/pages/Login.tsx",
       "change": "Patched src/pages/Login.tsx",
@@ -336,12 +342,6 @@
       "timestamp": "2026-03-05T18:03:40.703Z",
       "file": "src/pages/Dashboard.tsx",
       "change": "Updated src/pages/Dashboard.tsx",
-      "type": "modify"
-    },
-    {
-      "timestamp": "2026-03-05T18:03:19.285Z",
-      "file": "src/pages/Signup.tsx",
-      "change": "Updated src/pages/Signup.tsx",
       "type": "modify"
     }
   ]
