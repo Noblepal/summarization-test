@@ -33,7 +33,7 @@ export default function Login() {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-primary-600 rounded-full mb-4">
             <LogIn className="text-white" size={32} />
           </div>
-          <h2 className="text-3xl font-bold text-white mb-2">Welcome Back</h2>
+          <h2 className="text-3xl font-bold text-white mb-2">Welcome User</h2>
           <p className="text-gray-400">Sign in to your account to continue</p>
         </div>
 
