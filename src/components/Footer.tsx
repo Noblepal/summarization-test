@@ -42,11 +42,6 @@ export default function Footer() {
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection('pricing')} className="hover:text-primary-400 transition">
-                  Pricing
-                </button>
-              </li>
-              <li>
                 <a href="#" className="hover:text-primary-400 transition">
                   FAQ
                 </a>
