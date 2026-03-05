@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
 export default function Navbar() {
@@ -17,7 +18,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <span className="text-2xl font-bold text-primary-600">BrandName</span>
+            <Link to="/" className="text-2xl font-bold text-primary-600">
+              BrandName
+            </Link>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
@@ -27,9 +30,12 @@ export default function Navbar() {
             <button onClick={() => scrollToSection('contact')} className="text-gray-300 hover:text-primary-400 transition">
               Contact
             </button>
-            <button onClick={() => scrollToSection('contact')} className="bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition">
-              Get Started
-            </button>
+            <Link to="/login" className="text-gray-300 hover:text-primary-400 transition">
+              Login
+            </Link>
+            <Link to="/signup" className="bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition">
+              Sign Up
+            </Link>
           </div>
 
           <div className="md:hidden">
@@ -49,9 +55,12 @@ export default function Navbar() {
             <button onClick={() => scrollToSection('contact')} className="block w-full text-left text-gray-300 hover:text-primary-400 py-2">
               Contact
             </button>
-            <button onClick={() => scrollToSection('contact')} className="w-full bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition">
-              Get Started
-            </button>
+            <Link to="/login" className="block w-full text-left text-gray-300 hover:text-primary-400 py-2">
+              Login
+            </Link>
+            <Link to="/signup" className="w-full bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition block text-center">
+              Sign Up
+            </Link>
           </div>
         </div>
       )}
