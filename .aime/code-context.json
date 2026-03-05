@@ -199,8 +199,8 @@
       ]
     },
     "src/pages/Login.tsx": {
-      "lines": 126,
-      "lastModified": "2026-03-05T18:21:52.923Z",
+      "lines": 123,
+      "lastModified": "2026-03-05T18:25:56.712Z",
       "summary": "Login component",
       "exports": [
         "default:Login"
@@ -285,6 +285,12 @@
   },
   "recentChanges": [
     {
+      "timestamp": "2026-03-05T18:25:56.697Z",
+      "file": "src/pages/Login.tsx",
+      "change": "Patched src/pages/Login.tsx",
+      "type": "modify"
+    },
+    {
       "timestamp": "2026-03-05T18:21:52.908Z",
       "file": "src/pages/Login.tsx",
       "change": "Patched src/pages/Login.tsx",
@@ -336,12 +342,6 @@
       "timestamp": "2026-03-05T18:03:02.557Z",
       "file": "src/pages/Login.tsx",
       "change": "Updated src/pages/Login.tsx",
-      "type": "modify"
-    },
-    {
-      "timestamp": "2026-03-05T18:02:46.617Z",
-      "file": "src/context/AuthContext.tsx",
-      "change": "Updated src/context/AuthContext.tsx",
       "type": "modify"
     }
   ]
