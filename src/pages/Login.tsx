@@ -82,16 +82,6 @@ export default function Login() {
               </div>
             </div>
 
-            <div className="flex items-center justify-between">
-              <label className="flex items-center">
-                <input
-                  type="checkbox"
-                  className="w-4 h-4 bg-slate-900 border-slate-600 rounded text-primary-600 focus:ring-primary-500 focus:ring-offset-slate-800"
-                />
-                <span className="ml-2 text-sm text-gray-400">Remember me</span>
-              </label>
-            </div>
-
             <button
               type="submit"
               disabled={isLoading}
