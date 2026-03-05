@@ -24,9 +24,6 @@ export default function Navbar() {
             <button onClick={() => scrollToSection('features')} className="text-gray-300 hover:text-primary-400 transition">
               Features
             </button>
-            <button onClick={() => scrollToSection('testimonials')} className="text-gray-300 hover:text-primary-400 transition">
-              Testimonials
-            </button>
             <button onClick={() => scrollToSection('pricing')} className="text-gray-300 hover:text-primary-400 transition">
               Pricing
             </button>
@@ -51,9 +48,6 @@ export default function Navbar() {
           <div className="px-4 py-4 space-y-3">
             <button onClick={() => scrollToSection('features')} className="block w-full text-left text-gray-300 hover:text-primary-400 py-2">
               Features
-            </button>
-            <button onClick={() => scrollToSection('testimonials')} className="block w-full text-left text-gray-300 hover:text-primary-400 py-2">
-              Testimonials
             </button>
             <button onClick={() => scrollToSection('pricing')} className="block w-full text-left text-gray-300 hover:text-primary-400 py-2">
               Pricing

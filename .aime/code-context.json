@@ -77,8 +77,8 @@
       "imports": []
     },
     "src/components/Navbar.tsx": {
-      "lines": 73,
-      "lastModified": "2026-03-05T17:09:24.822Z",
+      "lines": 67,
+      "lastModified": "2026-03-05T17:28:41.909Z",
       "summary": "Navbar component",
       "exports": [
         "default:Navbar"
@@ -146,8 +146,8 @@
       ]
     },
     "src/components/Footer.tsx": {
-      "lines": 122,
-      "lastModified": "2026-03-05T17:05:03.417Z",
+      "lines": 117,
+      "lastModified": "2026-03-05T17:28:55.694Z",
       "summary": "Footer component",
       "exports": [
         "default:Footer"
@@ -157,8 +157,8 @@
       ]
     },
     "src/App.tsx": {
-      "lines": 22,
-      "lastModified": "2026-03-05T17:05:03.546Z",
+      "lines": 20,
+      "lastModified": "2026-03-05T17:28:25.986Z",
       "summary": "App component",
       "exports": [
         "default:App"
@@ -167,7 +167,6 @@
         "./components/Navbar",
         "./components/Hero",
         "./components/Features",
-        "./components/Testimonials",
         "./components/Pricing",
         "./components/Contact",
         "./components/Footer"
@@ -203,6 +202,24 @@
     "vite": "^5.1.4"
   },
   "recentChanges": [
+    {
+      "timestamp": "2026-03-05T17:28:55.657Z",
+      "file": "src/components/Footer.tsx",
+      "change": "Patched src/components/Footer.tsx",
+      "type": "modify"
+    },
+    {
+      "timestamp": "2026-03-05T17:28:41.878Z",
+      "file": "src/components/Navbar.tsx",
+      "change": "Patched src/components/Navbar.tsx",
+      "type": "modify"
+    },
+    {
+      "timestamp": "2026-03-05T17:28:25.961Z",
+      "file": "src/App.tsx",
+      "change": "Patched src/App.tsx",
+      "type": "modify"
+    },
     {
       "timestamp": "2026-03-05T17:14:18.607Z",
       "file": "src/components/Testimonials.tsx",
@@ -243,24 +260,6 @@
       "timestamp": "2026-03-05T17:09:24.812Z",
       "file": "src/components/Navbar.tsx",
       "change": "Patched src/components/Navbar.tsx",
-      "type": "modify"
-    },
-    {
-      "timestamp": "2026-03-05T17:08:54.356Z",
-      "file": "src/main.tsx",
-      "change": "Patched src/main.tsx",
-      "type": "modify"
-    },
-    {
-      "timestamp": "2026-03-05T17:08:37.255Z",
-      "file": "tailwind.config.js",
-      "change": "Patched tailwind.config.js",
-      "type": "modify"
-    },
-    {
-      "timestamp": "2026-03-05T17:08:33.467Z",
-      "file": "src/index.css",
-      "change": "Patched src/index.css",
       "type": "modify"
     }
   ]
