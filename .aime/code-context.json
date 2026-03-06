@@ -213,8 +213,8 @@
       ]
     },
     "src/pages/Signup.tsx": {
-      "lines": 275,
-      "lastModified": "2026-03-05T18:57:01.135Z",
+      "lines": 247,
+      "lastModified": "2026-03-06T14:56:14.725Z",
       "summary": "Signup component",
       "exports": [
         "default:Signup"
@@ -292,6 +292,18 @@
   },
   "recentChanges": [
     {
+      "timestamp": "2026-03-06T14:56:14.716Z",
+      "file": "src/pages/Signup.tsx",
+      "change": "Patched src/pages/Signup.tsx",
+      "type": "modify"
+    },
+    {
+      "timestamp": "2026-03-06T14:56:04.828Z",
+      "file": "src/pages/Signup.tsx",
+      "change": "Patched src/pages/Signup.tsx",
+      "type": "modify"
+    },
+    {
       "timestamp": "2026-03-06T14:29:01.898Z",
       "file": "README.md",
       "change": "Patched README.md",
@@ -337,18 +349,6 @@
       "timestamp": "2026-03-05T18:03:44.886Z",
       "file": "src/App.tsx",
       "change": "Updated src/App.tsx",
-      "type": "modify"
-    },
-    {
-      "timestamp": "2026-03-05T18:03:43.755Z",
-      "file": "src/components/ProtectedRoute.tsx",
-      "change": "Updated src/components/ProtectedRoute.tsx",
-      "type": "modify"
-    },
-    {
-      "timestamp": "2026-03-05T18:03:43.587Z",
-      "file": "src/pages/Home.tsx",
-      "change": "Updated src/pages/Home.tsx",
       "type": "modify"
     }
   ]

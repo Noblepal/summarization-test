@@ -10,7 +10,6 @@ export default function Signup() {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
-  const [agreedToTerms, setAgreedToTerms] = useState(false);
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const { signup } = useAuth();
@@ -49,11 +48,6 @@ export default function Signup() {
 
     if (password !== confirmPassword) {
       setError('Passwords do not match');
-      return;
-    }
-
-    if (!agreedToTerms) {
-      setError('Please agree to the Terms of Service and Privacy Policy');
       return;
     }
 
@@ -207,28 +201,6 @@ export default function Signup() {
                   <span>Passwords match</span>
                 </div>
               )}
-            </div>
-
-            {/* Terms Agreement */}
-            <div className="flex items-start gap-3 p-4 bg-slate-900/30 rounded-xl border border-slate-700/50">
-              <input
-                type="checkbox"
-                id="terms"
-                checked={agreedToTerms}
-                onChange={(e) => setAgreedToTerms(e.target.checked)}
-                required
-                className="w-4 h-4 mt-0.5 bg-slate-900 border-slate-600 rounded text-primary-600 focus:ring-primary-500 focus:ring-offset-slate-800 cursor-pointer"
-              />
-              <label htmlFor="terms" className="text-sm text-gray-400 cursor-pointer">
-                I agree to the{' '}
-                <Link to="/terms" className="text-primary-400 hover:text-primary-300 underline">
-                  Terms of Service
-                </Link>{' '}
-                and{' '}
-                <Link to="/privacy" className="text-primary-400 hover:text-primary-300 underline">
-                  Privacy Policy
-                </Link>
-              </label>
             </div>
 
             {/* Submit Button */}
