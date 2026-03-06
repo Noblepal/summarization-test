@@ -78,7 +78,7 @@
     },
     "src/components/Navbar.tsx": {
       "lines": 73,
-      "lastModified": "2026-03-05T17:09:24.822Z",
+      "lastModified": "2026-03-06T15:08:23.718Z",
       "summary": "Navbar component",
       "exports": [
         "default:Navbar"
@@ -135,7 +135,7 @@
     },
     "src/components/Contact.tsx": {
       "lines": 173,
-      "lastModified": "2026-03-05T17:12:40.670Z",
+      "lastModified": "2026-03-06T15:08:51.089Z",
       "summary": "Contact component",
       "exports": [
         "default:Contact"
@@ -147,7 +147,7 @@
     },
     "src/components/Footer.tsx": {
       "lines": 122,
-      "lastModified": "2026-03-05T17:05:03.417Z",
+      "lastModified": "2026-03-06T15:08:43.581Z",
       "summary": "Footer component",
       "exports": [
         "default:Footer"
@@ -157,25 +157,25 @@
       ]
     },
     "src/App.tsx": {
-      "lines": 22,
-      "lastModified": "2026-03-05T17:05:03.546Z",
+      "lines": 30,
+      "lastModified": "2026-03-05T18:03:44.930Z",
       "summary": "App component",
       "exports": [
         "default:App"
       ],
       "imports": [
-        "./components/Navbar",
-        "./components/Hero",
-        "./components/Features",
-        "./components/Testimonials",
-        "./components/Pricing",
-        "./components/Contact",
-        "./components/Footer"
+        "react-router-dom",
+        "./context/AuthContext",
+        "./pages/Home",
+        "./pages/Login",
+        "./pages/Signup",
+        "./pages/Dashboard",
+        "./components/ProtectedRoute"
       ]
     },
     "src/main.tsx": {
       "lines": 14,
-      "lastModified": "2026-03-05T17:08:54.373Z",
+      "lastModified": "2026-03-05T18:03:53.797Z",
       "summary": "main component",
       "exports": [],
       "imports": [
@@ -184,6 +184,93 @@
         "./index.css",
         "./App"
       ]
+    },
+    "src/context/AuthContext.tsx": {
+      "lines": 72,
+      "lastModified": "2026-03-05T18:02:46.631Z",
+      "summary": "AuthProvider component",
+      "exports": [
+        "AuthProvider",
+        "useAuth"
+      ],
+      "imports": [
+        "react"
+      ]
+    },
+    "src/pages/Login.tsx": {
+      "lines": 113,
+      "lastModified": "2026-03-05T18:36:07.544Z",
+      "summary": "Login component",
+      "exports": [
+        "default:Login"
+      ],
+      "imports": [
+        "react",
+        "react-router-dom",
+        "../context/AuthContext",
+        "lucide-react"
+      ]
+    },
+    "src/pages/Signup.tsx": {
+      "lines": 275,
+      "lastModified": "2026-03-05T18:57:01.135Z",
+      "summary": "Signup component",
+      "exports": [
+        "default:Signup"
+      ],
+      "imports": [
+        "react",
+        "react-router-dom",
+        "../context/AuthContext",
+        "lucide-react"
+      ]
+    },
+    "src/pages/Dashboard.tsx": {
+      "lines": 140,
+      "lastModified": "2026-03-05T18:03:40.735Z",
+      "summary": "Dashboard component",
+      "exports": [
+        "default:Dashboard"
+      ],
+      "imports": [
+        "../context/AuthContext",
+        "react-router-dom",
+        "lucide-react"
+      ]
+    },
+    "src/pages/Home.tsx": {
+      "lines": 21,
+      "lastModified": "2026-03-06T15:03:05.491Z",
+      "summary": "Home component",
+      "exports": [
+        "default:Home"
+      ],
+      "imports": [
+        "../components/Navbar",
+        "../components/Hero",
+        "../components/Features",
+        "../components/Contact",
+        "../components/Footer"
+      ]
+    },
+    "src/components/ProtectedRoute.tsx": {
+      "lines": 17,
+      "lastModified": "2026-03-05T18:03:43.761Z",
+      "summary": "ProtectedRoute component",
+      "exports": [
+        "default:ProtectedRoute"
+      ],
+      "imports": [
+        "react-router-dom",
+        "../context/AuthContext"
+      ]
+    },
+    "README.md": {
+      "lines": 61,
+      "lastModified": "2026-03-06T15:07:12.088Z",
+      "summary": "README.md",
+      "exports": [],
+      "imports": []
     }
   },
   "dependencies": {
@@ -204,63 +291,63 @@
   },
   "recentChanges": [
     {
-      "timestamp": "2026-03-05T17:14:18.607Z",
-      "file": "src/components/Testimonials.tsx",
-      "change": "Patched src/components/Testimonials.tsx",
-      "type": "modify"
-    },
-    {
-      "timestamp": "2026-03-05T17:12:40.651Z",
+      "timestamp": "2026-03-06T15:08:51.083Z",
       "file": "src/components/Contact.tsx",
       "change": "Patched src/components/Contact.tsx",
       "type": "modify"
     },
     {
-      "timestamp": "2026-03-05T17:11:57.232Z",
-      "file": "src/components/Pricing.tsx",
-      "change": "Patched src/components/Pricing.tsx",
+      "timestamp": "2026-03-06T15:08:43.570Z",
+      "file": "src/components/Footer.tsx",
+      "change": "Patched src/components/Footer.tsx",
       "type": "modify"
     },
     {
-      "timestamp": "2026-03-05T17:10:38.927Z",
-      "file": "src/components/Testimonials.tsx",
-      "change": "Patched src/components/Testimonials.tsx",
+      "timestamp": "2026-03-06T15:08:30.929Z",
+      "file": "src/components/Footer.tsx",
+      "change": "Patched src/components/Footer.tsx",
       "type": "modify"
     },
     {
-      "timestamp": "2026-03-05T17:10:16.499Z",
-      "file": "src/components/Features.tsx",
-      "change": "Patched src/components/Features.tsx",
-      "type": "modify"
-    },
-    {
-      "timestamp": "2026-03-05T17:09:54.197Z",
-      "file": "src/components/Hero.tsx",
-      "change": "Patched src/components/Hero.tsx",
-      "type": "modify"
-    },
-    {
-      "timestamp": "2026-03-05T17:09:24.812Z",
+      "timestamp": "2026-03-06T15:08:23.707Z",
       "file": "src/components/Navbar.tsx",
       "change": "Patched src/components/Navbar.tsx",
       "type": "modify"
     },
     {
-      "timestamp": "2026-03-05T17:08:54.356Z",
-      "file": "src/main.tsx",
-      "change": "Patched src/main.tsx",
+      "timestamp": "2026-03-06T15:07:12.074Z",
+      "file": "README.md",
+      "change": "Patched README.md",
       "type": "modify"
     },
     {
-      "timestamp": "2026-03-05T17:08:37.255Z",
-      "file": "tailwind.config.js",
-      "change": "Patched tailwind.config.js",
+      "timestamp": "2026-03-06T15:03:05.488Z",
+      "file": "src/pages/Home.tsx",
+      "change": "Patched src/pages/Home.tsx",
       "type": "modify"
     },
     {
-      "timestamp": "2026-03-05T17:08:33.467Z",
-      "file": "src/index.css",
-      "change": "Patched src/index.css",
+      "timestamp": "2026-03-05T18:57:01.119Z",
+      "file": "src/pages/Signup.tsx",
+      "change": "Updated src/pages/Signup.tsx",
+      "type": "modify"
+    },
+    {
+      "timestamp": "2026-03-05T18:36:07.535Z",
+      "file": "src/pages/Login.tsx",
+      "change": "Patched src/pages/Login.tsx",
+      "type": "modify"
+    },
+    {
+      "timestamp": "2026-03-05T18:25:56.697Z",
+      "file": "src/pages/Login.tsx",
+      "change": "Patched src/pages/Login.tsx",
+      "type": "modify"
+    },
+    {
+      "timestamp": "2026-03-05T18:21:52.908Z",
+      "file": "src/pages/Login.tsx",
+      "change": "Patched src/pages/Login.tsx",
       "type": "modify"
     }
   ]

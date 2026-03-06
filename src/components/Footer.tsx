@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-white text-xl font-bold mb-4">BrandName</h3>
+            <h3 className="text-white text-xl font-bold mb-4">AIME LANDING</h3>
             <p className="text-gray-400 mb-4">
               Transforming businesses with innovative solutions and cutting-edge technology.
             </p>
@@ -113,7 +113,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 BrandName. All rights reserved.</p>
+          <p>&copy; 2024 AIME LANDING. All rights reserved.</p>
         </div>
       </div>
     </footer>

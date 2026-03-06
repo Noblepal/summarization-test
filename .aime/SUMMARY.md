@@ -1,27 +1,24 @@
 ## Branch: main
-## Last Updated: 2026-03-05T17:34:54.317Z
-## Summary
+## Project Context
+Building a dark mode-only landing page for AIME LANDING using React, TypeScript, Vite, and Tailwind CSS. Testimonials section has been removed. The project includes Hero, Features, Pricing, Contact, and Footer sections with consistent dark styling (slate-900/800/700 backgrounds, white/gray text).
 
-**Task:** Convert landing page to dark mode only and remove testimonials section.
+## Current Focus
+Brand identity updates and documentation. Recently changed all instances of "BrandName" to "AIME LANDING" across components (Navbar, Footer, Contact). Updated README.md with comprehensive project documentation. Intentionally introduced a syntax runtime error in the home page for testing purposes.
 
-**Completed Work:**
-- Converted all components (Navbar, Hero, Features, Pricing, Contact, Footer) to dark color scheme using slate-900/800/700 backgrounds with white and gray-300/400 text
-- Fixed testimonials text contrast issues (dark text on dark backgrounds)
-- Removed Testimonials component entirely from the application
-- Updated navigation in Navbar and Footer to remove testimonials links
-- Verified build success and dev server functionality
+## Key Decisions
+- Dark mode only color scheme applied globally
+- Testimonials section completely removed from app
+- Brand name standardized to "AIME LANDING"
+- Contact email set to contact@aimelanding.com
+- Signup form simplified (removed terms agreement checkbox requirement)
+- Runtime error introduced in Home component for testing
 
-**Active Files Modified:**
-- src/App.tsx (removed Testimonials import/usage)
-- src/components/Navbar.tsx (removed testimonials nav link)
-- src/components/Footer.tsx (removed testimonials link)
-- src/components/Testimonials.tsx (deleted)
-- All other components updated with dark mode styling
+## Active Files
+- src/components/Navbar.tsx (brand name updated)
+- src/components/Footer.tsx (brand name updated)
+- src/components/Contact.tsx (email updated)
+- README.md (comprehensive documentation added)
+- src/App.tsx (contains intentional runtime error)
 
-**Color Palette Applied:**
-- Backgrounds: slate-900, slate-800, slate-700
-- Text: white (headings), gray-300 (body), gray-400 (muted)
-- Borders: slate-700, slate-600
-- Accents: primary-600 (blue)
-
-**Status:** Complete - All changes applied, build successful, dev server running.
+## Status
+Completed: Brand rebranding to AIME LANDING, README documentation. In progress: Runtime error testing in home page. Build successful, dev server running.
