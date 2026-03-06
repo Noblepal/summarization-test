@@ -144,7 +144,7 @@ export default function Signup() {
                   onChange={(e) => setPassword(e.target.value)}
                   required
                   className="w-full pl-11 pr-12 py-3 bg-slate-900/50 border border-slate-600 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition"
-                  placeholder="••••••••"
+                  placeholder="â¢â¢â¢â¢â¢â¢â¢â¢"
                 />
                 <button
                   type="button"
@@ -191,7 +191,7 @@ export default function Signup() {
                   onChange={(e) => setConfirmPassword(e.target.value)}
                   required
                   className="w-full pl-11 pr-12 py-3 bg-slate-900/50 border border-slate-600 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition"
-                  placeholder="••••••••"
+                  placeholder="â¢â¢â¢â¢â¢â¢â¢â¢"
                 />
                 <button
                   type="button"
@@ -265,7 +265,7 @@ export default function Signup() {
         {/* Back to Home */}
         <div className="mt-6 text-center">
           <Link to="/" className="text-gray-400 hover:text-gray-300 text-sm transition inline-flex items-center gap-1">
-            <span>←</span> Back to home
+            <span>â</span> Back to home
           </Link>
         </div>
       </div>

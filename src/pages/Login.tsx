@@ -77,7 +77,7 @@ export default function Login() {
                   onChange={(e) => setPassword(e.target.value)}
                   required
                   className="w-full pl-11 pr-4 py-3 bg-slate-900 border border-slate-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition"
-                  placeholder="••••••••"
+                  placeholder="â¢â¢â¢â¢â¢â¢â¢â¢"
                 />
               </div>
             </div>
@@ -103,7 +103,7 @@ export default function Login() {
 
         <div className="mt-6 text-center">
           <Link to="/" className="text-gray-400 hover:text-gray-300 text-sm transition">
-            ← Back to home
+            â Back to home
           </Link>
         </div>
       </div>

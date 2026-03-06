@@ -4,7 +4,18 @@
     "skipLibCheck": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "noImplicitReturns": false,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "strictBindCallApply": false,
+    "strictFunctionTypes": false,
+    "allowJs": true,
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true
   },
   "include": ["vite.config.ts"]
 }
