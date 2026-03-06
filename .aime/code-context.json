@@ -265,6 +265,13 @@
         "react-router-dom",
         "../context/AuthContext"
       ]
+    },
+    "README.md": {
+      "lines": 89,
+      "lastModified": "2026-03-06T14:29:01.902Z",
+      "summary": "README.md",
+      "exports": [],
+      "imports": []
     }
   },
   "dependencies": {
@@ -284,6 +291,12 @@
     "vite": "^5.1.4"
   },
   "recentChanges": [
+    {
+      "timestamp": "2026-03-06T14:29:01.898Z",
+      "file": "README.md",
+      "change": "Patched README.md",
+      "type": "modify"
+    },
     {
       "timestamp": "2026-03-05T18:57:01.119Z",
       "file": "src/pages/Signup.tsx",
@@ -336,12 +349,6 @@
       "timestamp": "2026-03-05T18:03:43.587Z",
       "file": "src/pages/Home.tsx",
       "change": "Updated src/pages/Home.tsx",
-      "type": "modify"
-    },
-    {
-      "timestamp": "2026-03-05T18:03:40.703Z",
-      "file": "src/pages/Dashboard.tsx",
-      "change": "Updated src/pages/Dashboard.tsx",
       "type": "modify"
     }
   ]
